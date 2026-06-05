@@ -1,0 +1,15 @@
+==========
+Pocket PDB
+==========
+
+The PDB was obtained from https://www.rcsb.org/structure/2HYY.  The PDB was
+cleaned using RowanSci's PDB cleaning tool. Heterogens were removed, and only
+the first chain was kept.
+
+===========
+Pocket JSON
+===========
+
+The cleaned pocket PDB was analyzed for pockets using the RowanSci
+implementation of Pocketeer. The pocket JSON was expored from the RowanSci
+platform.

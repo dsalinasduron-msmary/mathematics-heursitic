@@ -15,10 +15,10 @@ def main():
 
     pockets = data["object_data"]["pockets"]
 
+    print("pocket\tsphere\tx\ty\tz\tr")
     for i, pocket in enumerate(pockets):
         centers = pocket["sphere_centers"]
         radii = pocket["sphere_radii"]
-        print(f"# Pocket {i} ({len(centers)} spheres)")
         for j, (c, r) in enumerate(zip(centers, radii)):
             print(f"{i}\t{j}\t{c[0]:.4f}\t{c[1]:.4f}\t{c[2]:.4f}\t{r:.4f}")
 
